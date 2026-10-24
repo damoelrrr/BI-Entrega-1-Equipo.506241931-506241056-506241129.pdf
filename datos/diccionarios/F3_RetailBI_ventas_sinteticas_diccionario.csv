@@ -1,0 +1,13 @@
+﻿campo,tipo,descripcion,ejemplo,problema_de_calidad
+venta_id,Texto,Identificador único de la línea de venta simulada (V + 6 dígitos),V000001,Duplicados: debe validarse unicidad en el ETL
+fecha_venta,Fecha (ISO),"Fecha de la línea de venta, de 2023-01-01 a 2025-12-31",2024-04-23,Llega en AAAA-MM-DD; en la copia de prueba se simulan formatos mezclados (23/04/2024 y 04-23-2024)
+tienda_id,Texto,Código de la tienda (T01 a T05),T03,Códigos no catalogados
+tienda,Texto,Nombre de la tienda,Kennedy,Espacios sobrantes o variantes de escritura
+producto_id,Texto,Código del producto (P001 a P030),P004,Código sin correspondencia en DimProducto
+producto,Texto,Nombre del producto,Yogur 1 L,Variaciones de escritura
+categoria,Texto,Categoría comercial del producto (6 categorías),Lacteos,Tildes o mayúsculas inconsistentes
+cantidad,Entero,Unidades vendidas en la línea (1 a 6),3,Nulos o valores no positivos en datos alterados
+precio_unitario_cop,Entero (COP),Precio unitario simulado,7200,Valores fuera de rango
+costo_unitario_cop,Entero (COP),Costo unitario simulado; no es un costo real,5400,"Dato sintético, no representa rentabilidad real"
+descuento_cop,Entero (COP),Descuento simulado de la línea,500,Descuento mayor que la venta bruta
+total_venta_cop,Entero (COP),Venta neta simulada = cantidad × precio_unitario_cop − descuento_cop,21100,Debe cuadrar con cantidad × precio − descuento
