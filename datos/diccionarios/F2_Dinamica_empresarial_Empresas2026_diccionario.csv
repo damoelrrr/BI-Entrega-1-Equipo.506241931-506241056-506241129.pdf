@@ -1,0 +1,13 @@
+campo,tipo,descripcion,ejemplo,problema_de_calidad
+_id,Entero,Identificador de fila del datastore,130147,
+Periodo,Texto (año),Año de referencia de la información,2026,Numérico almacenado como texto
+Mes,Texto (mes),Mes de referencia de la información,4,Numérico almacenado como texto; un solo corte (abril 2026)
+Localidad,Texto,Localidad de Bogotá de la empresa,Engativa,Nombres sin tildes; 2.383 filas con 'Sin Localidad'
+Tamano empresarial,Texto,Tamaño de la empresa,Microempresa,86 filas 'Sin Información'
+Rama de actividad economica,Texto,Gran rama de actividad,Comercio,
+Codigo CIIU Rev. 4 A.C,Texto,Código de actividad económica CIIU,112,Cero inicial perdido (2.147 filas con menos de 4 dígitos); 2 filas 'Sin información'
+Organizacion juridica,Texto,Tipo de organización jurídica,Sociedad Por Acciones Simplificada,
+Sexo del representante legal,Texto,Sexo del representante legal,Femenino,5.828 filas 'Indeterminado'
+Numero de empresas vigentes,Texto (entero),Empresas con matrícula vigente,1,Numérico como texto; 1.122 nulos
+Numero de empresas creadas ano corrido,Texto (entero),Empresas creadas en el año corrido,27,Numérico como texto; 31.327 nulos
+Numero de empresas canceladas ano corrido,Texto (entero),Empresas canceladas en el año corrido,38,Numérico como texto; 31.753 nulos

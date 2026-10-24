@@ -1,0 +1,8 @@
+campo,tipo,descripcion,ejemplo,problema_de_calidad
+Año,Entero,Año de la observación mensual; solo aparece en la primera fila de cada año,2019,Celdas vacías en los meses 2 a 12 de cada año
+Mes,Texto,Mes de referencia,"  Enero.",Espacios iniciales y punto sobrante en enero de 2019
+Total comercio minorista y vehículosa,Decimal,Índice de ventas nominales del total minorista con vehículos (base 2019 = 100),88.27,Nombre con letra de nota al pie pegada (a)
+Total comercio minorista sin vehículos automotores ni motocicletasb,Decimal,Índice de ventas nominales sin vehículos (base 2019 = 100),91.29,Nombre con letra de nota al pie pegada (b)
+Total comercio minorista sin combustiblesc,Decimal,Índice de ventas nominales sin combustibles (base 2019 = 100),86.58,Nombre con letra de nota al pie pegada (c)
+Total comercio minorista sin combustibles ni vehículosd,Decimal,Índice de ventas nominales sin combustibles ni vehículos (base 2019 = 100),90.10,Nombre con letra de nota al pie pegada (d)
+1. Alimentos (víveres en general) … 19. Otros vehículos automotores y motocicletas,Decimal,Índice de ventas nominales de cada una de las 19 líneas de mercancía (base 2019 = 100),90.26,Filas de notas técnicas debajo de los datos; cifras provisionales (p)
